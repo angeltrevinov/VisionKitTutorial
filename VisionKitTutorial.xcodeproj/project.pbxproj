@@ -15,6 +15,9 @@
 		0B654FF125FADD4F005910A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B654FEF25FADD4F005910A8 /* LaunchScreen.storyboard */; };
 		0B654FFC25FADD50005910A8 /* VisionKitTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B654FFB25FADD50005910A8 /* VisionKitTutorialTests.swift */; };
 		0B65500725FADD50005910A8 /* VisionKitTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65500625FADD50005910A8 /* VisionKitTutorialUITests.swift */; };
+		0B65501B25FAE4EE005910A8 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65501A25FAE4EE005910A8 /* ScanButton.swift */; };
+		0B65502025FAE6F7005910A8 /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65501F25FAE6F7005910A8 /* ScanImageView.swift */; };
+		0B65502525FAE88D005910A8 /* OcrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65502425FAE88D005910A8 /* OcrTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0B65500225FADD50005910A8 /* VisionKitTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionKitTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B65500625FADD50005910A8 /* VisionKitTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionKitTutorialUITests.swift; sourceTree = "<group>"; };
 		0B65500825FADD50005910A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B65501A25FAE4EE005910A8 /* ScanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+		0B65501F25FAE6F7005910A8 /* ScanImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
+		0B65502425FAE88D005910A8 /* OcrTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcrTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				0B654FED25FADD4F005910A8 /* Assets.xcassets */,
 				0B654FEF25FADD4F005910A8 /* LaunchScreen.storyboard */,
 				0B654FF225FADD4F005910A8 /* Info.plist */,
+				0B65501A25FAE4EE005910A8 /* ScanButton.swift */,
+				0B65501F25FAE6F7005910A8 /* ScanImageView.swift */,
+				0B65502425FAE88D005910A8 /* OcrTextView.swift */,
 			);
 			path = VisionKitTutorial;
 			sourceTree = "<group>";
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B65501B25FAE4EE005910A8 /* ScanButton.swift in Sources */,
 				0B654FE925FADD4E005910A8 /* ViewController.swift in Sources */,
 				0B654FE525FADD4E005910A8 /* AppDelegate.swift in Sources */,
+				0B65502025FAE6F7005910A8 /* ScanImageView.swift in Sources */,
+				0B65502525FAE88D005910A8 /* OcrTextView.swift in Sources */,
 				0B654FE725FADD4E005910A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
